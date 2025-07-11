@@ -1,4 +1,3 @@
-
 <template>
   <v-app class="rounded rounded-md border">
     <!-- <v-app-bar title="Application bar">
@@ -18,7 +17,9 @@
       ></v-btn>
     </v-toolbar>
     <v-main>
-      <RouterView />
+      <v-container fluid>
+        <RouterView />
+      </v-container>
     </v-main>
   </v-app>
 </template>
